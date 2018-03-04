@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Bug1440263",
+    "description": "",
+    "author": "Santo Pfingsten",
+    "version": "1.0.0",
+    "applications": {
+        "gecko": {
+            "id": "bug1440263@lusito.info",
+            "strict_min_version": "57.0"
+        }
+    },
+    "browser_action": {
+        "default_title": "Press to delete"
+    },
+    "background": {
+        "scripts": [
+            "script.js"
+        ]
+    },
+    "permissions": [
+        "cookies",
+		"notifications",
+        "<all_urls>"
+    ]
+}
